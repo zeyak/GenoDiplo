@@ -1,4 +1,4 @@
-# GenoDiplo: Genome analyses of the diplomonad Spironucleus barkhanus 
+# GenoDiplo: Genome analyses of the diplomonad _Spironucleus barkhanus_ 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
