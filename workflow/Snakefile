@@ -2,7 +2,7 @@
 
 include: "rules/1_assembly.smk"
 include: "rules/2_annotation.smk"
-include: "rules/3_genome_level.smk"
+
 
 
 rule all:
