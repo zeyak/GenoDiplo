@@ -1,4 +1,4 @@
-# GenoDiplo: A pipeline for fast assembly, annotation and analyses of genomes from eukaryotic microbes
+# GenoDiplo: Genome analyses of the diplomonad Spironucleus barkhanus 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
