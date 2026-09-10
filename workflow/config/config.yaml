@@ -1,0 +1,33 @@
+# =====================================================================
+# GenoDiplo Configuration File
+# Adjust all paths below to match your local setup before running.
+# =====================================================================
+
+# --- Input Data ---
+# Root directory containing your sequencing data
+# Expected layout:
+#   {data_dir}/DNA/raw/nanopore.fastq.gz   (raw Nanopore reads)
+#   {data_dir}/DNA/raw/<reads>.fastq.gz    (additional read files)
+#   {data_dir}/EST/<est_filename>.fasta    (cDNA library, see est_file below)
+data_dir: /path/to/genodiplo_data
+
+# Full path to the EST / cDNA library FASTA used for BLAST evaluation
+#est_file: /data/your_project/EST/S_barkhanus_cloneMiner_cDNA_library.fasta
+
+# --- Database Paths ---
+# Directory for the BLAST NR database.
+# The setup_nr_db rule will download it here the first time.
+# NOTE: set up the database before enabling the blastn contamination rule.
+databases_dir: /data/databases/nr
+
+# eggNOG-mapper data directory (~50 GB, must be downloaded separately).
+# See: https://github.com/eggnogdb/eggnog-mapper/wiki/eggNOG-mapper-v2#downloading-the-database
+eggnog_data_dir: /data/eggnog-mapper/data
+
+# --- Assembly Parameters ---
+# Estimated genome size passed to Flye (e.g. 114m, 1g)
+genome_size: 150m
+
+# --- Compute Resources ---
+# Number of CPU threads available on your machine
+threads: 8

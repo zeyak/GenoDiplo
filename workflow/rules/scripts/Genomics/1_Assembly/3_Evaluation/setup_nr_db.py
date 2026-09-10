@@ -1,0 +1,1 @@
+from snakemake.shell import shelloutdir = snakemake.output.outdirshell(f"""    mkdir -p {outdir}    cd {outdir}    update_blastdb.pl --decompress human_genomic --blastdb_version 5 --out {outdir}    update_blastdb.pl --decompress ref_prok_rep_genomes --blastdb_version 5 --out {outdir}    """)

@@ -1,1 +1,41 @@
-/workflow/
+# Sequencing data and other large inputs (never commit; see README for accessions)
+genodiplo_data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta.gz
+*.fa.gz
+*.bam
+*.sam
+*.dmnd
+
+# Installers and local environments
+Miniforge3-*.sh
+.conda/
+.venv/
+
+# Snakemake internals and pipeline outputs
+.snakemake/
+workflow/.snakemake/
+results/
+logs/
+
+# Large pre-built DIAMOND databases (created by the make_diamond_db rule)
+resources/DiploProteoms/*.dmnd
+
+# GlimmerHMM training output (not tracked; add source files manually)
+resources/TrainGlimmerHMM/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor and assistant working directories
+.idea/
+.vscode/
+.claude/
+
+# macOS
+.DS_Store

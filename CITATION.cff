@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use GenoDiplo, please cite it using these metadata."
+title: "GenoDiplo: a Snakemake workflow for diplomonad genome assembly and annotation"
+abstract: >-
+  GenoDiplo is a Snakemake workflow that takes raw long-read sequencing data
+  through assembly, quality evaluation, and structural and functional
+  annotation of diplomonad genomes. It was developed for the reference genome
+  of Hexamita inflata and applied in simplified form to the draft genome of
+  Spironucleus barkhanus.
+type: software
+authors:
+  - given-names: Zeynep
+    family-names: Akdeniz
+    orcid: "https://orcid.org/0000-0002-5279-6077"
+repository-code: "https://github.com/zeyak/GenoDiplo"
+license: MIT
+version: 1.0.0
+keywords:
+  - genome assembly
+  - genome annotation
+  - Snakemake
+  - diplomonads
+  - comparative genomics
